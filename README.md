@@ -10,6 +10,6 @@ You can find our website in the following link: [Horiseon by Andres Sierra](http
 
 You can also visit our GitHub Repository at: [Horiseon | GitHub Repository](https://github.com/asierramejia33/Horiseon/)
 
-Finally this is a Screenshot of the Horiseon Website 
+Finally this is a Screenshot of the Horiseon Website.
 
-(./assets/images/Screenshot-Final.JPG)
+(./assets/images/Screenshot-Final.jpg)
