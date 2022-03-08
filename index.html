@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <! 14. Added type>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <!1. Changed Title!>
     <title>Horiseon</title>
     <!2. Added an Icon for the Title!>
@@ -11,10 +12,10 @@
 </head>
 
 <body>
-    <! 4. removed div.elm, created head.elm!>
+    <! 4. Removed div.elm, created header.elm!>
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <! 5. removed div.elm, created nav.elm!>
+        <! 5. Removed div.elm, created nav.elm!>
         <nav>
             <ul>
                 <li>
@@ -31,11 +32,11 @@
     </header>
     <! 6. Added Main Content Element !>
     <main>
-        <! 7. removed div.elm, created section.elm, added img.elm and alt>
+        <! 7. Removed div.elm, created section.elm, added img.elm and alt>
         <section class="hero">
             <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting">
         </section>
-        <! 8. removed div.elm, created section.elm>
+        <! 8. Removed div.elm, created section.elm>
         <section class="content">
             <!9. ID missing corrected, img order attributes added/corrected>
             <div id="search-engine-optimization" class="content-div">
@@ -64,33 +65,34 @@
                 </p>
             </div>
         </section>
-        <div class="benefits">
-            <div class="benefit-lead">
+        <! 13. Removed div.elm, created aside.elm, img order attributes added/corrected>
+        <aside class="benefits">
+            <div class="benefit-div">
                 <h3>Lead Generation</h3>
-                <img src="./assets/images/lead-generation.png" />
+                <img class="benefit-img" src="./assets/images/lead-generation.png" alt="Lead Generation" />
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </div>
-            <div class="benefit-brand">
+            <div class="benefit-div">
                 <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png" />
+                <img class="benefit-img" src="./assets/images/brand-awareness.png" alt="Brand Awareness" />
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </div>
-            <div class="benefit-cost">
+            <div class="benefit-div">
                 <h3>Cost Management</h3>
-                <img src="./assets/images/cost-management.png" />
+                <img class="benefit-img" src="./assets/images/cost-management.png" alt="Cost Management" />
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                 </p>
             </div>
-        </div>
+        </aside>
     </main>
-    <!12. removed div.elm, created footer.elm>
-    <footer class="footer">
-        <h3>Made with ❤️️ by Horiseon</h3>
+    <!12. Removed div.elm, created footer.elm>
+    <footer>
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
