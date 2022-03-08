@@ -74,14 +74,22 @@ p {
     background-position: center;
 }
 
+
+/* 9. added max-height from content img selectors*/
+
 .float-left {
     float: left;
     margin-right: 25px;
+    max-height: 200px;
 }
+
+
+/* 10. added max-height from content img selectors*/
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
 }
 
 .content {
@@ -150,8 +158,19 @@ p {
 }
 
 
-/* 7. Condensed content classes */
+/* 12. Condensed content classes into new class*/
 
+.content-div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* /* 7. Condensed content classes
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -162,7 +181,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*
 
 /*
 .search-engine-optimization {
@@ -194,13 +213,7 @@ p {
 */
 
 
-/* 8. Condensed content img selectors */
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
+/* 8. Removed content img selectors and added max-height to .float-n */
 
 
 /*
@@ -217,6 +230,16 @@ p {
 }
 */
 
+
+/* 12. content section h2 heading to elm */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -231,6 +254,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
@@ -239,6 +263,9 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+
+/* 11. changed section footer heading h2-->h3*/
+
+h3 {
     font-size: 20px;
 }
