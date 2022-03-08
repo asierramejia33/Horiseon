@@ -12,4 +12,4 @@ You can also visit our GitHub Repository at: [Horiseon | GitHub Repository](http
 
 Finally this is a Screenshot of the Horiseon Website.
 
-(./assets/images/Screenshot-Final.jpg)
+[screenshot](./assets/images/Screenshot-Final.jpg)
